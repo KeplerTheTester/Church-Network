@@ -1,0 +1,141 @@
+/*colors to be used;
+
+    colorAccent: #DCAE26 // orange
+    colorDark: #00303F // dark
+*/
+
+.nav-item{
+    float: right;
+    color: #DCAE26;
+}
+
+.back-item{
+    float: left;
+}
+
+a:link{
+    color: #DCAE26;
+    border-color: #00303F;
+    border-width: 2px;
+}
+
+a:visited {
+    color: #00303F;
+  }
+  
+
+body{
+    background-color: #F2F2F2;
+}
+
+.networkPlayBtn{
+    width: 200px;
+    height: 50px;
+    padding-top: 80px;
+}
+
+.adminPlayBtn{
+    width: 200px;
+    height: 50px;
+    padding-top: 120px;
+}
+
+.footer{
+    min-height: 100%;
+    float: bottom;
+}
+
+h1{
+   text-align: center;
+   font-size: 120px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   padding:20px;
+   color: #DCAE26;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8px;
+    color: #00303F;
+}
+
+h3{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #00303F;
+}
+
+ul{
+    list-style: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.adminDiv{
+    text-align: right;
+}
+
+iframe{
+    margin: 6px;
+
+}
+
+li{
+    color: #00303F;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+h5{
+    color: #DCAE26;
+    font-size: 16px;
+    
+}
+
+h6{
+    color: #DCAE26;
+    font-size: 16px;
+    text-align: right;
+}
+
+/*
+contact specific things here 
+*/
+p{
+    color: #00303F;
+    font-size: 28px;
+    text-align: center;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+}
+  
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.center {
+    margin-top: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
