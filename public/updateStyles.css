@@ -11,12 +11,12 @@
     text-align: center;
 }
 .banner{
-    width: 50%;
+    width: 100%;
     margin: auto;
     text-align: center;
     
 }
-.container{
+.containerMine{
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
@@ -106,7 +106,7 @@ a{
 
 /*This is for product main features*/
 
-.productFeatures{
+/*.productFeatures{
     height: 300px;
     width: 100%;
     margin: auto;
@@ -114,7 +114,11 @@ a{
     text-align: center;
     
 }
-
+.feature {
+    width: 20%;
+    padding: 2px;
+    display: inline-block;
+}
 .feature {
     width: 20%;
     padding: 2px;
@@ -125,6 +129,28 @@ a{
     color: #DCAE26;
     text-align: center;
     padding-top: 16px;
+}*/
+.productFeatures{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #0B3847;
+    text-align: center;
+    
+}
+
+.feature {
+    width: 20%;
+    margin: 20px;
+    padding: auto;
+    display: inline-block;
+}
+
+.feature p{
+    color: #DCAE26;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 90%;
 }
 
 .feature i{
@@ -154,6 +180,7 @@ a{
     margin: auto;
     padding: 0px;
     position: relative;
+    margin-top: 2px;
 }
 
 .page{
@@ -167,7 +194,7 @@ a{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.frame{
+/*.frame{
     width: 400px;
     height: 350px;
     margin: 0 auto;
@@ -175,6 +202,16 @@ a{
 }
 iframe{
     display: block;
+}top is original,bottom is edited
+*/
+.frame{
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+    background-color: #777;
+}
+iframe{
+    display: inline;
 }
 
 h2{
@@ -201,6 +238,43 @@ h2{
     margin: 4px 2px;
     cursor: pointer;
 }
+
+/*footer code \/.*/
+.footerContainer{
+    background-color: #DDB84B;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-col{
+    display: block;
+}
+
+.footer-col-2{
+    text-align: center;
+    display: inline;
+}
+
+.footerContainer h3{
+    color: #0B3847;
+}
+
+.footerContainer p{
+    color: #0B3847;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 320px) 
 { /* for screen size less or equal to 320px*/
     p{
